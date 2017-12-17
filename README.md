@@ -15,8 +15,8 @@ A Simple New Tab Chrome Extension
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/selcher/gif-search/blob/master/CONTRIBUTING.md) for details on contributing to the repository.
+Please read [CONTRIBUTING.md](https://github.com/selcher/time-tab/raw/master/CONTRIBUTING.md) for details on contributing to the repository.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/selcher/gif-search/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/selcher/time-tab/raw/master/LICENSE) file for details.
