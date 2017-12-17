@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Time",
+    "version": "0.0.0.1",
+
+    "description": "Show The Time",
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+
+    "author": "Selcher Solstice",
+    "background": {},
+    "chrome_url_overrides": {
+        "newtab": "tab.html"
+    },
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "offline_enabled": true,
+    "permissions": [
+        "storage"
+    ],
+    "short_name": "Time",
+    "version_name": "Alpha",
+    "web_accessible_resources": [
+        "img/*.jpg",
+        "css/*.css",
+        "js/*.js"
+    ]
+}

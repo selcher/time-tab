@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>New</title>
+
+    <link rel="stylesheet"
+        href="css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="css/main.css">
+    <link rel="stylesheet"
+        href="css/time.css">
+    <link rel="stylesheet"
+        href="css/bookmark.css">
+    <link rel="stylesheet"
+        href="css/notes.css">
+</head>
+
+<body>
+
+    <div id="container" class="noselect">
+        <div id="content">
+
+            <!-- Time -->
+            <div id="time">
+                <div id="time-left">
+                    <div id="time-date"></div>
+                    <div id="time-time"></div>
+                </div>
+
+                <div id="time-right">
+                    <div id="time-day"></div>
+                </div>
+            </div>
+
+            <!-- Bookmark -->
+            <div id="bookmark">
+                <div class="input-group">
+                    <input id="bookmark-input"
+                        class="form-control"
+                        type="text"
+                        placeholder="bookmark">
+                    <div class="input-group-btn">
+                        <button id="bookmark-add"
+                            class="btn btn-primary"
+                            type="button">
+                            <span class="glyphicon glyphicon-plus-sign">
+                            </span>
+                        </button>
+                        <button id="bookmark-view-all"
+                            class="btn btn-primary"
+                            type="button">
+                            <span class="glyphicon glyphicon-new-window">
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <ul id="bookmark-list"
+                    class="list-group custom-scrollbar">
+                </ul>
+            </div>
+
+            <!-- Notes -->
+            <div id="notes">
+                <div class="form-group">
+                    <button
+                        id="notes-save"
+                        class="btn btn-primary">
+                        <span class="glyphicon glyphicon-save">
+                        </span>
+                    </button>
+                    <label
+                        for="notes-save">
+                        Notes
+                    </label>
+                </div>
+                <textarea id="notes-textarea"
+                    class="form-control"
+                    rows="5"
+                    placeholder="Add your notes here"></textarea>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript"
+        src="js/time.js"
+        async>
+    </script>
+    <script type="module"
+        src="js/module/bg.js"
+        async>
+    </script>
+    <script type="module"
+        src="js/module/bookmark.js"
+        async>
+    </script>
+    <script type="module"
+        src="js/module/notes.js"
+        async>
+    </script>
+</body>
+
+</html>

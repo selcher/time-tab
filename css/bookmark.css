@@ -1,0 +1,36 @@
+#bookmark {
+  width: 300px;
+  margin: 8px 0 0 16px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: content-box;
+  color: var(--font-color);
+  font-size: 15px;
+  background-color: var(--theme-bg-color);
+}
+
+#bookmark-input {
+    color: var(--input-font-color);
+}
+
+#bookmark-list {
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.bookmark-link-container.list-group-item {
+    border-radius: 0;
+}
+
+.bookmark-link {
+    width: 200px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

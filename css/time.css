@@ -1,0 +1,29 @@
+#time {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    min-height: 42px;
+    margin: 16px 0 0 16px;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+    color: var(--font-color);
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: var(--theme-bg-color);
+}
+
+#time-left {
+    width: 100px;
+}
+
+#time-right {
+    width: 160px;
+    margin-left: auto;
+    text-align: right;
+}
+
+#time-day {
+    font-size: 30px;
+    text-transform: uppercase;
+}

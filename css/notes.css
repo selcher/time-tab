@@ -1,0 +1,15 @@
+#notes {
+  width: 300px;
+  margin: 8px 0 0 16px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: content-box;
+  color: var(--font-color);
+  font-size: 15px;
+  background-color: var(--theme-bg-color);
+}
+
+#notes-textarea {
+    color: var(--input-font-color);
+    resize: vertical;
+}
