@@ -18,7 +18,7 @@
 }
 
 #time-right {
-    width: 160px;
+    width: auto;
     margin-left: auto;
     text-align: right;
 }
